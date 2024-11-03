@@ -9,6 +9,10 @@ app.get('/', (req, res)=>{
     res.send("hello to our image !!!")
 
 })
+app.get('/root', (req, res)=>{
+    res.send("hello to our image !!!")
+
+})
 
 app.listen(PORT, HOST, ()=>{
     console.log("application")
